@@ -23,15 +23,12 @@
 `%x`	Unsigned hexadecimal (base 16) integer (int)
 
 ## Setting up a MIPS environment on LINUX
-
-`apt update && apt upgrade
-
+```
+apt update && apt upgrade
 apt install gcc-5-mips-linux-gnu
-
 apt install binutils-mips-linux-gnu
-
-apt install qemu-user`
-
+apt install qemu-user
+```
 ### To assemble MIPS to binary:
 `mips-linux-gnu-as shell.asm --32`
 ### To compile C to MIPS binary:
