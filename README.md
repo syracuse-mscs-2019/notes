@@ -1,6 +1,3 @@
-# NOTES
-General documentation for Syracuse M.S.C.S. curriculum.
-
 ## Conversion Specifiers (printf)
 
 `%c`	Single character
