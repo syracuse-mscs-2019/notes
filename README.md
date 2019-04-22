@@ -25,8 +25,11 @@
 ## Setting up a MIPS environment on LINUX
 
 `apt update && apt upgrade
+
 apt install gcc-5-mips-linux-gnu
+
 apt install binutils-mips-linux-gnu
+
 apt install qemu-user`
 
 ### To assemble MIPS to binary:
